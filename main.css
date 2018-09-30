@@ -1,29 +1,32 @@
 body {
-  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 70px;
 }
 #box2, #box3, #box4, #box5, #box7 {
   background-color: #DAA520;
   color: #228B22;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+  border-radius: 1%;
+  padding: 2%;
+  font-size: 50%;
 }
 #box1 , #box6, #box8, #box9 {
   background-color: #000000;
   color: #228B22;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+  border-radius: 1%;
+  padding: 2%;
+  font-size: 50%;
 }
 #box:nth-child(even) {
   background-color: #ccc;
   color: #000;
 }
 #wrapper {
-  width: 600px;
+  width:  100%;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(3, 480px);
-  grid-template-rows: 480px 480px 480px;
+  grid-template-columns: repeat(2, 58%);
+  grid-template-rows: repeat(3 , 58%);
   grid-auto-flow: row;
 }
