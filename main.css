@@ -4,14 +4,14 @@ body {
   margin-left: 15px;
   margin-right: 70px;
 }
-#box2, #links, #education, #box5, #box7 {
+#photo, #links, #education, #box5, #box7 {
   background-color: #DAA520;
   color: #228B22;
   border-radius: 1%;
   padding: 2%;
   font-size: 50%;
 }
-#box1 , #box6, #box8, #box9 {
+#about , #box6, #box8, #box9 {
   background-color: #000000;
   color: #228B22;
   border-radius: 1%;
