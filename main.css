@@ -39,3 +39,7 @@ body {
    margin: 0 auto;
    max-width: 100%;
  }
+ figcaption{
+  font-size: 0.875em;0
+  line-height: 1.07em;
+}
