@@ -30,3 +30,8 @@ body {
   grid-template-rows: repeat(3 , 58%);
   grid-auto-flow: row;
 }
+#Leila-image{
+  padding-top: 20%;
+  margin: 0 auto;
+  max-width: 100%;
+ }
