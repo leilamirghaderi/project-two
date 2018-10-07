@@ -23,6 +23,10 @@ html {
   grid-column: 1/3;
   grid-row: 2;
 }
+#experience{
+  grid-column: 1/3;
+  grid-row: 3;
+}
 #photo, #education, #ambitions, #navigation {
   background-color: #DAA520;
   color: #228B22;
