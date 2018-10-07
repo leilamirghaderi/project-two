@@ -33,10 +33,7 @@ html {
   padding: 2%;
   font-size: 50%;
 }
-#box:nth-child(even) {
-  background-color: #ccc;
-  color: #000;
-}
+
 #menu{
   display: inline-grid;
   font-weight: bold;
