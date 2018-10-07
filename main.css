@@ -27,6 +27,14 @@ html {
   grid-column: 1/3;
   grid-row: 3;
 }
+#ambitions{
+  grid-column: 1/3;
+  grid-row: 4;
+}
+#navigation{
+  grid-column: 1/2;
+  grid-row: 5;
+}
 #photo, #education, #ambitions, #navigation {
   background-color: #DAA520;
   color: #228B22;
