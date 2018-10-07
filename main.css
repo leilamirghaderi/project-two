@@ -4,7 +4,7 @@ body {
   margin-left: 15px;
   margin-right: 70px;
 }
-#photo, #education, #ambitions {
+#photo, #education, #ambitions, #navigation {
   background-color: #DAA520;
   color: #228B22;
   border-radius: 1%;
