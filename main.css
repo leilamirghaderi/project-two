@@ -38,6 +38,14 @@ body {
   margin-left: 0%;
   margin-right: 40%;
 }
+#direction{
+  padding-top: 70%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  font-size: 0.8125em;
+  line-height: 1.07em;
+}
 #Leila-image{
   padding-top: 20%;
   margin: 0 auto;
