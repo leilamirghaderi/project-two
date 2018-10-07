@@ -30,6 +30,14 @@ body {
   grid-template-rows: repeat(3 , 58%);
   grid-auto-flow: row;
 }
+#menu{
+  display: inline-grid;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-bottom: 35%;
+  margin-left: 0%;
+  margin-right: 40%;
+}
 #Leila-image{
   padding-top: 20%;
   margin: 0 auto;
