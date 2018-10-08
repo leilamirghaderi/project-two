@@ -69,6 +69,16 @@ html {
   font-size: 0.8125em;
   line-height: 1.07em;
 }
+#contactinfo{
+  color: #000000;
+  padding-top: 70%;
+  padding-bottom: 5%;
+  padding-right: 70%;
+  margin-right: 85%;
+  padding-left: 5%;
+  font-size: 0.8125em;
+  line-height: 1.07em;
+}
 #Leila-image{
   padding-top: 20%;
   margin: 0 auto;
