@@ -5,7 +5,7 @@ html {
   max-width: 1500px;
 }
 p{
-  margin: 0 inherit;
+  margin: 0   inherit;
   max-width: none;
 }
 #primary {
@@ -107,4 +107,16 @@ color: #000000;
  figcaption{
   font-size: 0.875em;
   line-height: 1.07em;
+}
+@media screen and (min-width: 648px) {
+  html{
+    font-size: 1.3em;
+    line-height: 1.35em;
+  }
+  #leila-image{
+    max-width: 60%;
+  }
+  #graduation{
+    max-width: 40%;
+  }
 }
