@@ -42,16 +42,14 @@ html {
 #photo, #education, #ambitions, #navigation {
   background-color: #595959;
   color: #ffffff;
-  border-radius: 1%;
+  border-radius: 2%;
   padding: 2%;
-  font-size: 50%;
 }
 #about , #experience, #links {
   background-color: #DAA520;
   color: #000000;
-  border-radius: 1%;
+  border-radius: 2%;
   padding: 2%;
-  font-size: 50%;
 }
 #menu{
   display: inline-grid;
