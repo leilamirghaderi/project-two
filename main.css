@@ -44,6 +44,8 @@ html {
   color: #ffffff;
   border-radius: 2%;
   padding: 2%;
+  font-size: 1.06em;
+  line-height: 1.1em;
 }
 #about , #experience, #links {
   background-color: #DAA520;
