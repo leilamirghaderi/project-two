@@ -96,6 +96,7 @@ color: #ffffff;
 color: #000000;
 }
 #Leila-image{
+  display: block;
   padding-top: 20%;
   margin: 0 auto;
   max-width: 100%;
