@@ -4,6 +4,10 @@ html {
   margin: 0 auto;
   max-width: 1500px;
 }
+p{
+  margin: 0 inherit;
+  max-width: none;
+}
 #primary {
   display: grid;
   grid-auto-flow: row;
@@ -101,6 +105,6 @@ color: #000000;
    max-width: 100%;
  }
  figcaption{
-  font-size: 0.875em;0
+  font-size: 0.875em;
   line-height: 1.07em;
 }
