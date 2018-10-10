@@ -22,12 +22,12 @@ p{
   padding: 5px 10px;
 }
 #about{
-    grid-column: 1/2;
-    grid-row: 1;
+  grid-column: 1/2;
+  grid-row: 1;
 }
 #photo{
-    grid-column: 2/3;
-    grid-row: 1;
+  grid-column: 2/3;
+  grid-row: 1;
 }
 #education{
   grid-column: 1/3;
@@ -90,28 +90,28 @@ p{
   line-height: 1.07em;
 }
 #about a{
-color: #000000;
+  color: #000000;
 }
 #education a{
-color: #ffffff;
+  color: #ffffff;
 }
 #navigation a{
-color: #ffffff;
+  color: #ffffff;
 }
 #links a{
-color: #000000;
+  color: #000000;
 }
 #Leila-image{
   display: block;
   padding-top: 20%;
   margin: 0 auto;
   max-width: 100%;
- }
- #graduation{
-   margin: 0 auto;
-   max-width: 100%;
- }
- figcaption{
+}
+#graduation{
+  margin: 0 auto;
+  max-width: 100%;
+}
+figcaption{
   font-size: 0.875em;
   line-height: 1.07em;
 }
