@@ -19,7 +19,6 @@ p{
   background-color: #595959;
   opacity: .9;
   border-radius: 5px;
-  padding: 5px 10px;
 }
 #about{
   grid-column: 1/2;
