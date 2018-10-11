@@ -29,7 +29,7 @@ p{
   opacity: .9;
   border-radius: 5px;
 }
-#about{
+#header{
   grid-column: 1/2;
   grid-row: 1;
 }
@@ -65,7 +65,7 @@ p{
   font-size: 1.06em;
   line-height: 1.1em;
 }
-#about , #experience, #links {
+#header , #experience, #links {
   background-color: #DAA520;
   color: #000000;
   border-radius: 2%;
@@ -97,7 +97,7 @@ p{
   font-size: 0.8125em;
   line-height: 1.07em;
 }
-#about a{
+#header a{
   color: #000000;
 }
 #education a{
