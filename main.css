@@ -109,7 +109,7 @@ p{
 #links a{
   color: #000000;
 }
-#Leila-image{
+#photo{
   display: block;
   padding-top: 20%;
   margin: 0 auto;
@@ -128,7 +128,7 @@ figcaption{
     font-size: 1.3em;
     line-height: 1.35em;
   }
-  #Leila-image{
+  #photo{
     max-width: 60%;
   }
   #graduation{
