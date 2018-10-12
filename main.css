@@ -76,6 +76,8 @@ h2{
 #navigation{
   display: inline-grid;
   font-weight: bold;
+  font-size: 1.125em; /*18px /*16 = 1.125px */
+  line-height: 1.333em; /* 24px /  18px= 1.333...*/
   margin-top: 10%;
   margin-bottom: 35%;
   margin-left: 0%;
