@@ -17,6 +17,10 @@ p{
   font-size: 1.125em; /*18px /*16 = 1.125px */
   line-height: 1.222em; /* 22px /  18px= 1.222...*/
 }
+h2{
+  font-size: 1.75em; /*28px /*16 = 1.75px */
+  line-height: 1.28em; /* 36px /  28px= 1.28*/
+}
 #primary {
   display: grid;
   grid-auto-flow: row;
