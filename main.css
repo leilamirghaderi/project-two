@@ -7,20 +7,46 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/* Base style elements */
 html {
   background-color: #ffffff;
   color: #000000;
   font-family:"Helvetica Neue", Helvetica , Arial, sans-serif;
   margin: 1%;
 }
-p{
-  font-size: 1.125em; /*18px /*16 = 1.125px */
-  line-height: 1.222em; /* 22px /  18px= 1.222...*/
+figcaption{
+  font-size: 0.875em;
+  line-height: 1.07em;
 }
 h2{
   font-size: 1.75em; /*28px /*16 = 1.75px */
   line-height: 1.28em; /* 36px /  28px= 1.28*/
 }
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 20%;
+}
+p{
+  font-size: 1.125em; /*18px /*16 = 1.125px */
+  line-height: 1.222em; /* 22px /  18px= 1.222...*/
+}
+ul{
+  color: #000000;
+  display: block;
+  font-size: 0.8125em; /*13px /*16 = 0.8125 */
+  line-height: 1.23em; /* 16px /  13px= 1.23*/
+  margin-top: 60%;
+}
+video {
+  display: block;
+  padding-top: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/* module styles (id selectors) */
 #primary {
   display: grid;
   grid-auto-flow: row;
@@ -30,16 +56,12 @@ h2{
 }
 #primary :hover:not(.active) {
   background-color: #595959;
-  opacity: .9;
   border-radius: 5px;
+  opacity: .9;
 }
-#header{
-  grid-column: 1/2;
-  grid-row: 1;
-}
-#photo{
-  grid-column: 2/3;
-  grid-row: 1;
+#ambitions{
+  grid-column: 1/3;
+  grid-row: 4;
 }
 #education{
   grid-column: 1/3;
@@ -49,28 +71,32 @@ h2{
   grid-column: 1/3;
   grid-row: 3;
 }
-#ambitions{
-  grid-column: 1/3;
-  grid-row: 4;
-}
-#return{
+#header{
   grid-column: 1/2;
-  grid-row: 5;
+  grid-row: 1;
 }
 #links{
   grid-column: 2/3;
   grid-row: 5;
 }
-#photo, #education, #ambitions, #return {
-  background-color: #595959;
-  color: #ffffff;
-  border-radius: 2%;
-  padding: 2%;
+#photo{
+  grid-column: 2/3;
+  grid-row: 1;
+}
+#return{
+  grid-column: 1/2;
+  grid-row: 5;
 }
 #header , #experience, #links {
   background-color: #DAA520;
-  color: #000000;
   border-radius: 2%;
+  color: #000000;
+  padding: 2%;
+}
+#photo, #education, #ambitions, #return {
+  background-color: #595959;
+  border-radius: 2%;
+  color: #ffffff;
   padding: 2%;
 }
 #navigation{
@@ -78,25 +104,18 @@ h2{
   font-weight: bold;
   font-size: 1.125em; /*18px /*16 = 1.125px */
   line-height: 1.333em; /* 24px /  18px= 1.333...*/
-  margin-top: 10%;
   margin-bottom: 35%;
   margin-left: 0%;
   margin-right: 40%;
+  margin-top: 10%;
 }
 #return{
-  padding-top: 70%;
+  font-size: 0.8125em; /*13px /*16 = 0.8125 */
+  line-height: 1.23em; /* 16px /  13px= 1.23*/
   padding-bottom: 3%;
   padding-left: 5%;
   padding-bottom: 5%;
-  font-size: 0.8125em; /*13px /*16 = 0.8125 */
-  line-height: 1.23em; /* 16px /  13px= 1.23*/
-}
-ul{
-  color: #000000;
-  display: block;
-  margin-top: 60%;
-  font-size: 0.8125em; /*13px /*16 = 0.8125 */
-  line-height: 1.23em; /* 16px /  13px= 1.23*/
+  padding-top: 70%;
 }
 #header a{
   color: #000000;
@@ -110,23 +129,7 @@ ul{
 #links a{
   color: #000000;
 }
-img{
-  display: block;
-  padding-top: 20%;
-  margin: 0 auto;
-  max-width: 100%;
-}
 #graduation{
-  display: block;
-  padding-top: 15px;
-  margin: 0 auto;
-  max-width: 100%;
-}
-figcaption{
-  font-size: 0.875em;
-  line-height: 1.07em;
-}
-video {
   display: block;
   padding-top: 15px;
   margin: 0 auto;
@@ -138,41 +141,42 @@ video {
   font-size: 0.875em;
   line-height: 1.07em;
 }
+/* State style (media queries) */
 @media screen and (min-width: 648px) {
   html{
     font-size: 1.3em;
     line-height: 1.35em;
   }
-  img{
-    max-width: 60%;
-    display: block;
-    padding-top: 17px;
-  }
-  #graduation{
-    max-width: 40%;
-    display: block;
-    padding-top: 25px;
-  }
   figcaption{
-  padding-left: 30%;
   padding-bottom: 25px;
+  padding-left: 30%;
 }
-video{
+  #graduation{
+  display: block;
   max-width: 40%;
-  display: block;
-  padding-left: 5px;
+  padding-top: 25px;
 }
-#videocaption{
+img{
   display: block;
-  padding-left: 30%;
-  padding-bottom: 25px;
+  max-width: 60%;
+  padding-top: 17px;
 }
-ul{
+  #return a{
+  display: block;
+  padding-top: 20%;
+}
+  ul{
   display: block;
   padding-top: 25%;
 }
-#return a{
+  video{
   display: block;
-  padding-top: 20%;
+  max-width: 40%;
+  padding-left: 5px;
+}
+  #videocaption{
+  display: block;
+  padding-bottom: 25px;
+  padding-left: 30%;
 }
 }
