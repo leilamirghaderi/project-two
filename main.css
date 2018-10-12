@@ -147,4 +147,18 @@ video {
     display: block;
     padding-top: 25px;
   }
+  figcaption{
+  padding-left: 30%;
+  padding-bottom: 25px;
+}
+video{
+  max-width: 40%;
+  display: block;
+  padding-left: 5px;
+}
+#videocaption{
+  display: block;
+  padding-left: 30%;
+  padding-bottom: 25px;
+}
 }
