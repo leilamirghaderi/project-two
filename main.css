@@ -117,17 +117,11 @@ video {
   padding-bottom: 5%;
   padding-top: 70%;
 }
-#header a{
+#header a, #links a{
   color: #000000;
 }
-#education a{
+#education a, #return a{
   color: #ffffff;
-}
-#return a{
-  color: #ffffff;
-}
-#links a{
-  color: #000000;
 }
 #graduation{
   display: block;
