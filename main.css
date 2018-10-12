@@ -14,8 +14,8 @@ html {
   margin: 1%;
 }
 p{
-  margin: 0   inherit;
-  max-width: none;
+  font-size: 1.125em; /*18px /*16 = 1.125px */
+  line-height: 1.222em; /* 22px /  18px= 1.222...*/
 }
 #primary {
   display: grid;
