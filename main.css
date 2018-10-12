@@ -118,6 +118,18 @@ figcaption{
   font-size: 0.875em;
   line-height: 1.07em;
 }
+video {
+  display: block;
+  padding-top: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+#videocaption{
+  display: block;
+  padding-bottom: 15px;
+  font-size: 0.875em;
+  line-height: 1.07em;
+}
 @media screen and (min-width: 648px) {
   html{
     font-size: 1.3em;
