@@ -27,7 +27,7 @@ p{
   opacity: .9;
   border-radius: 5px;
 }
-header{
+#header{
   grid-column: 1/2;
   grid-row: 1;
 }
@@ -85,13 +85,10 @@ header{
   font-size: 0.8125em;
   line-height: 1.07em;
 }
-#contactinfo{
+ul{
   color: #000000;
-  padding-top: 70%;
-  padding-bottom: 5%;
-  padding-right: 70%;
-  margin-right: 85%;
-  padding-left: 5%;
+  display: block;
+  margin-top: 60%;
   font-size: 0.8125em;
   line-height: 1.07em;
 }
