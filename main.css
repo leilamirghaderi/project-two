@@ -47,6 +47,7 @@ video {
   max-width: 100%;
 }
 /* module styles (id selectors) */
+/* Grid codes */
 #primary {
   display: grid;
   grid-auto-flow: row;
@@ -87,6 +88,7 @@ video {
   grid-column: 1/2;
   grid-row: 5;
 }
+/* styles codes (id selectors) */
 #header , #experience, #links {
   background-color: #DAA520;
   border-radius: 2%;
