@@ -111,6 +111,8 @@ img{
   max-width: 100%;
 }
 #graduation{
+  display: block;
+  padding-top: 20%;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -138,7 +140,7 @@ video {
   img{
     max-width: 60%;
     display: block;
-    padding-top: 35px;  
+    padding-top: 17px;
   }
   #graduation{
     max-width: 40%;
