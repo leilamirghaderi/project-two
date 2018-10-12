@@ -161,4 +161,12 @@ video{
   padding-left: 30%;
   padding-bottom: 25px;
 }
+ul{
+  display: block;
+  padding-top: 45px;
+}
+#return a{
+  display: block;
+  padding-top: 20%;
+}
 }
