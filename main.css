@@ -10,6 +10,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #ffffff;
   color: #000000;
+  font-family:"Helvetica Neue", Helvetica , Arial, sans-serif;
+  margin: 1%;
 }
 p{
   margin: 0   inherit;
