@@ -127,9 +127,8 @@ video {
 #return{
   font-size: 0.8125em; /*13px /*16 = 0.8125 */
   line-height: 1.23em; /* 16px /  13px= 1.23*/
-  padding-bottom: 3%;
-  padding-left: 5%;
   padding-bottom: 5%;
+  padding-left: 5%;
   padding-top: 70%;
 }
 #videocaption{
