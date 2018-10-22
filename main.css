@@ -55,14 +55,13 @@ video {
   grid-template-columns: repeat(2, 49.5%);
   grid-template-rows: repeat(3 , 19%);
 }
-#primary :hover:not(.active) {
-  background-color: #595959;
-  border-radius: 5px;
-  opacity: .9;
+#header{
+  grid-column: 1/2;
+  grid-row: 1;
 }
-#ambitions{
-  grid-column: 1/3;
-  grid-row: 4;
+#photo{
+  grid-column: 2/3;
+  grid-row: 1;
 }
 #education{
   grid-column: 1/3;
@@ -72,20 +71,16 @@ video {
   grid-column: 1/3;
   grid-row: 3;
 }
-#header{
-  grid-column: 1/2;
-  grid-row: 1;
-}
-#links{
-  grid-column: 2/3;
-  grid-row: 5;
-}
-#photo{
-  grid-column: 2/3;
-  grid-row: 1;
+#ambitions{
+  grid-column: 1/3;
+  grid-row: 4;
 }
 #return{
   grid-column: 1/2;
+  grid-row: 5;
+}
+#links{
+  grid-column: 2/3;
   grid-row: 5;
 }
 /* styles codes (id selectors) */
