@@ -20,7 +20,14 @@
     </nav>
   </section>
     <a id="photo">
-      <img src="myimage.jpg" alt="An Image of Leila" />
+      <img
+      srcset=
+      "myimage_300.jpg 300w,
+      myimage_600.jpg 600w,
+      myimage_800.jpg 800w,
+      myimage_1220.jpg 1220w"
+      sizes=" (min-width: 630px) 50vw, (min-width: 940px) 50vw"
+      src="myimage_300.jpg" alt="An Image of Leila" />
     </a>
   </header>
   <main id="primary">
