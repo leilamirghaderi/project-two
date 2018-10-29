@@ -29,8 +29,8 @@
       sizes=" (min-width: 450px) 80vw,
       (min-width: 700px) 70vw,
       (min-width: 950px) 60vw,
-      (min-width: 1200px) 30vw,
-      60vw"
+      (min-width: 1200px) 80vw,
+      80vw"
       src="myimage_300.jpg" alt="An Image of Leila" />
     </a>
   </header>
@@ -45,7 +45,17 @@
         clicking on the below link.
       </p>
       <figure>
-        <img id="graduation" src="graduation-image.jpg" alt="UB Graduation's Ceremony" />
+        <img id="graduation"
+        srcset=
+        "graduation_image_600.jpg 600w,
+        graduation_image_1220.jpg 1220w,
+        graduation_image_1600.jpg 1600w"
+        sizes="(min-width: 450px) 80vw,
+        (min-width: 700px) 70vw,
+        (min-width: 950px) 60vw,
+        (min-width: 1400px) 30vw,
+        95vw"
+        src="graduation-image.jpg" alt="UB Graduation's Ceremony" />
         <figcaption>UB Graduation's Ceremony</figcaption>
       </figure>
       <video controls>
