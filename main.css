@@ -21,18 +21,18 @@ figcaption {
   text-align: center;
 }
 h2 {
-  font-size: 1.75em; /*28px /*16 = 1.75px */
-  line-height: 1.28em; /* 36px /  28px= 1.28*/
+  font-size: 1.75em; /*28px /*16 = 1.75emx */
+  line-height: 1.28em; /* 36px /  28px= 1.28em*/
 }
 p {
-  font-size: 1.125em; /*18px /*16 = 1.125px */
-  line-height: 1.222em; /* 22px /  18px= 1.222...*/
+  font-size: 1.125em; /*18px /*16 = 1.125em */
+  line-height: 1.222em; /* 22px /  18px= 1.222...em*/
 }
 ul {
   color: #000000;
   display: block;
-  font-size: 0.8125em; /*13px /*16 = 0.8125 */
-  line-height: 1.23em; /* 16px /  13px= 1.23*/
+  font-size: 0.8125em; /*13px /*16 = 0.8125em */
+  line-height: 1.23em; /* 16px /  13px= 1.23em*/
   margin-top: 60%;
 }
 video {
@@ -112,8 +112,8 @@ video {
 #navigation {
   display: inline-grid;
   font-weight: bold;
-  font-size: 1.125em; /*18px /*16 = 1.125px */
-  line-height: 1.333em; /* 24px /  18px= 1.333...*/
+  font-size: 1.125em; /*18px /*16 = 1.125em */
+  line-height: 1.333em; /* 24px /  18px= 1.333...em*/
   margin-bottom: 35%;
   margin-left: 0%;
   margin-right: 40%;
@@ -144,9 +144,10 @@ video {
 }
 /* State style (media queries) */
 @media screen and (min-width: 437px) {
-  #navigation a{
+  #navigation a {
     line-height: 1.75em; /*28px /*16 = 1.75em */
   }
+}
 @media screen and (min-width: 648px) {
   html {
     font-size: 1.31em; /*21px /*16 = 1.31em */
