@@ -12,7 +12,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #ffffff;
   color: #000000;
-  font-family:"Helvetica Neue", Helvetica , Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica , Arial, sans-serif;
   margin: 1%;
 }
 figcaption {
@@ -141,22 +141,26 @@ video {
   line-height: 1.07em;
 }
 /* State style (media queries) */
+@media screen and (min-width: 437px) {
+  #navigation a{
+    line-height: 1.7em;
+  }
 @media screen and (min-width: 648px) {
   html {
     font-size: 1.3em;
     line-height: 1.35em;
   }
   figcaption {
-    padding-bottom:  1.5625em;
+    padding-bottom: 1.5625em;
     padding-left: 10%;
   }
-  #navigation a{
+  #navigation a {
     line-height: 2em;
   }
   #graduation {
     display: block;
     max-width: 80%;
-    padding-top: 25px;
+    padding-top: 1.5625em;
   }
   #return a {
     display: block;
