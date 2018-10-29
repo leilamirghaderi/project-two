@@ -154,7 +154,6 @@ video {
   }
   figcaption {
     padding-bottom: 1.5625em;
-    padding-left: 10%;
     text-align: center;
   }
   #navigation a {
@@ -181,7 +180,6 @@ video {
   #videocaption {
     display: block;
     padding-bottom: 1.5625em;
-    padding-left: 10%;
     text-align: center;
   }
 }
