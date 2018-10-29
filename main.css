@@ -159,11 +159,6 @@ video {
   #navigation a {
     line-height: 2em;
   }
-  #graduation {
-    display: block;
-    max-width: 80%;
-    padding-top: 1.5625em;
-  }
   #return a {
     display: block;
     padding-top: 20%;
@@ -171,11 +166,6 @@ video {
   ul {
     display: block;
     padding-top: 25%;
-  }
-  video {
-    display: block;
-    max-width: 80%;
-    padding-left: 0.3125em;
   }
   #videocaption {
     display: block;
