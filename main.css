@@ -97,9 +97,6 @@ video {
 #education a, #return a {
   color: #ffffff;
 }
-#introduction a, #links a {
-  color: #000000;
-}
 #education h2, #experience h2, #ambitions h2 {
   padding-bottom: 0.625em;
 }
@@ -118,6 +115,9 @@ video {
   margin-left: 0%;
   margin-right: 40%;
   margin-top: 10%;
+}
+#navigation a, #links a {
+  color: #000000;
 }
 #photo img {
   display: block;
@@ -180,12 +180,12 @@ video {
     line-height: 1.07em; /*28px /*26 = 1.07em */
     margin: 0.5%;
   }
-  #header h2{
-  font-size: 2.7em;
-  padding-top: 1.4em;
-}
-#navigation a{
-   font-size: 1.37em; /*22px /*16 = 1.5em */
-   line-height: 2em;
- }
+  #header h2 {
+    font-size: 2.7em;
+    padding-top: 1.4em;
+  }
+  #navigation a {
+    font-size: 1.37em; /*22px /*16 = 1.5em */
+    line-height: 2em;
+  }
 }
