@@ -87,7 +87,7 @@ video {
   grid-row: 5;
 }
 /* styles codes (id selectors) */
-#header , #experience, #links {
+#introduction , #experience, #links {
   background-color: #DAA520;
   border-radius: 2%;
   color: #000000;
@@ -102,7 +102,7 @@ video {
 #education a, #return a {
   color: #ffffff;
 }
-#header a, #links a {
+#introduction a, #links a {
   color: #000000;
 }
 #education h2, #experience h2, #ambitions h2 {
