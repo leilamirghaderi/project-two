@@ -36,7 +36,7 @@ ul {
 }
 video {
   display: block;
-  padding-top: 15px;
+  padding-top: 0.9375em;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -100,11 +100,11 @@ video {
   color: #000000;
 }
 #education h2, #experience h2, #ambitions h2 {
-  padding-bottom: 10px;
+  padding-bottom: 0.625em;
 }
 #graduation {
   display: block;
-  padding-top: 15px;
+  padding-top: 0.937em;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -136,7 +136,7 @@ video {
 }
 #videocaption {
   display: block;
-  padding-bottom: 15px;
+  padding-bottom: 0.9375em;
   font-size: 0.875em;
   line-height: 1.07em;
 }
@@ -147,8 +147,11 @@ video {
     line-height: 1.35em;
   }
   figcaption {
-    padding-bottom: 25px;
+    padding-bottom:  1.5625em;
     padding-left: 10%;
+  }
+  #navigation a{
+    line-height: 2em;
   }
   #graduation {
     display: block;
@@ -158,7 +161,7 @@ video {
   img {
     display: block;
     max-width: 60%;
-    padding-top: 17px;
+    padding-top: 1.0625em;
   }
   #return a {
     display: block;
@@ -171,11 +174,11 @@ video {
   video {
     display: block;
     max-width: 80%;
-    padding-left: 5px;
+    padding-left: 0.3125em;
   }
   #videocaption {
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 1.5625em;
     padding-left: 10%;
   }
 }
