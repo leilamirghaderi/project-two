@@ -158,11 +158,6 @@ video {
     max-width: 80%;
     padding-top: 25px;
   }
-  img {
-    display: block;
-    max-width: 60%;
-    padding-top: 1.0625em;
-  }
   #return a {
     display: block;
     padding-top: 20%;
